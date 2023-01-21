@@ -1,3 +1,5 @@
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
+
 public class Calculadora {
 
     public void somaDoisNumeros(){
@@ -18,12 +20,5 @@ public class Calculadora {
         }
         return num1/num2;
     }
-
-    public double divideDoisNumeros02(double num1, double num2) {
-        if (num2 == 0) {
-            return 0;
-        } else {
-            return num1 / num2;
-        }
-    }
 }
+
