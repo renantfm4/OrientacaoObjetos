@@ -19,27 +19,27 @@ public class Principal {
             if (input2.equals("+")) {
                 calculadora = new Calculadora(operando1, operando2);
                 int resultado = calculadora.calcularSoma();
-                System.out.println(resultado);
+                System.out.println("O resultado de " + strOp1 + " + " + strOp2 + " é " + resultado + ".");
             }
             if (input2.equals("-")) {
                 calculadora = new Calculadora(operando1, operando2);
                 int resultado = calculadora.calcularSubtracao();
-                System.out.println(resultado);
+                System.out.println("O resultado de " + strOp1 + " - " + strOp2 + " é " + resultado + ".");
             }
             if (input2.equals("*")) {
                 calculadora = new Calculadora(operando1, operando2);
                 int resultado = calculadora.calcularMultiplicacao();
-                System.out.println(resultado);
+                System.out.println("O resultado de " + strOp1 + " * " + strOp2 + " é " + resultado + ".");
             }
             if (input2.equals("/")) {
                 calculadora = new Calculadora(operando1, operando2);
                 int resultado = calculadora.calcularDivisao();
-                System.out.println(resultado);
+                System.out.println("O resultado de " + strOp1 + " / " + strOp2 + " é " + resultado + ".");
             }
             if (input2.equals("!")) {
                 calculadora = new Calculadora(operando1, operando2);
                 int resultado = calculadora.inverterSinal();
-                System.out.println(resultado);
+                System.out.println("O inverso de " + strOp1 + " é " + resultado + ".");
             } else {
             }
         }
